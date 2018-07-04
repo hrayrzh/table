@@ -1,0 +1,45 @@
+
+table{
+    border-collapse: collapse;
+    margin: 3px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+td{
+    border:2px solid; 
+    border-collapse: collapse;
+}
+tr:first-child td:first-child{
+    padding: 7px;
+}
+.name{
+    padding: 0 33px 5px 5px;    
+}
+.score{
+    padding: 2px 6px;
+}
+tr:first-child .score, tr:first-child .score+td{
+    border-bottom: 0;
+}
+tr:last-child .score, tr:last-child .score+td{
+    border-top: 0;    
+}
+span.info{
+    font-style: italic;
+    background-color: #a9a9a9;
+    font-family: serif;
+    padding: 7px 15px;
+    margin: auto 3px;
+    border-radius: 2px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+span.winner{
+    background-color: red;
+    border-radius: 2px;
+    padding: 0 2px;
+    color: white;
+    vertical-align: text-top;
+    font-size: 12px;
+}
